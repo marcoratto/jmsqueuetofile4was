@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejb="ejb.xmi" xmlns:ejbbnd="ejbbnd.xmi" xmi:id="EJBJarBinding_1287151128737">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:type="ejbbnd:MessageDrivenBeanBinding" xmi:id="MessageDrivenBeanBinding_1287152375854" listenerInputPortName="JmsQueueToFileListenerPort">
+    <enterpriseBean xmi:type="ejb:MessageDriven" href="META-INF/ejb-jar.xml#JmsQueueToFile"/>
+    <resRefBindings xmi:id="ResourceRefBinding_1287152375854" jndiName="jms/QueueConnectionFactory">
+      <bindingResourceRef href="META-INF/ejb-jar.xml#ResourceRef_1210675857890"/>
+    </resRefBindings>
+    <resRefBindings xmi:id="ResourceRefBinding_1287399457925" jndiName="url/JmsQueueToFileConfigFile">
+      <bindingResourceRef href="META-INF/ejb-jar.xml#ResourceRef_1287399457925"/>
+    </resRefBindings>
+  </ejbBindings>
+</ejbbnd:EJBJarBinding>
