@@ -1,0 +1,1 @@
+This project implements a "simple" Java/J2EE Application for downloading message from a Queue and writing it on a file directly on file system of the server.
